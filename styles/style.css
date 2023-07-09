@@ -115,19 +115,26 @@ header {
     background-color: #FFF8F3;
 }
 
-.about>h2 {
+
+/* shared style  */
+
+.section-title {
     color: #181818;
-    /* text-align: center; */
+    text-align: center;
     font-size: 35px;
     font-weight: 700;
     margin-bottom: 0px;
 }
 
-.about-description {
+
+/* shared styles  */
+
+.section-description {
     color: #757575;
     font-size: 18px;
     font-weight: 400;
     margin: 30px 0px;
+    text-align: center;
 }
 
 .about-bio {
@@ -147,4 +154,11 @@ header {
 .color {
     color: #474747;
     font-weight: 800;
+}
+
+
+/* What i do section start*/
+
+#what-i-do-description {
+    padding: 0px 150px 50px 150px;
 }
