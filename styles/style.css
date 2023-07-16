@@ -291,3 +291,88 @@ textarea {
     padding: 18px;
     background-color: #FFF8F3;
 }
+
+
+/* small screen devices  */
+
+.hide {
+    display: none;
+}
+
+@media screen and (max-width:576px) {
+    .skill-container,
+    .resume-container,
+    .footer-container,
+    .about-bio,
+    .banner {
+        flex-direction: column;
+    }
+    #what-i-do-description {
+        padding: 20px;
+    }
+    .footer-container {
+        padding: 20px;
+    }
+    .footer-column {
+        width: 100%;
+    }
+    .download-cv-btn {
+        text-align: left;
+        margin-top: 50px;
+    }
+    .contact input[type="text"],
+    .contact input[type="email"],
+    textarea {
+        width: 70%;
+    }
+    .about {
+        padding: 20px;
+        margin: 20px;
+    }
+    .banner {
+        padding: 10px;
+    }
+    .banner-image {
+        width: 100%;
+    }
+    .nav-menus>ul {
+        flex-direction: column-reverse;
+        align-items: flex-end;
+    }
+}
+
+
+/* medium screen  */
+
+@media screen and (min-width:576px) and (max-width: 992px) {
+    .footer-container {
+        flex-direction: column;
+        padding: 20px;
+    }
+    .footer-column {
+        width: 100%;
+    }
+    .contact input[type="text"],
+    .contact input[type="email"],
+    textarea {
+        width: 80%;
+    }
+    .about {
+        padding: 20px;
+        margin: 20px;
+    }
+    .banner {
+        padding: 10px;
+        flex-wrap: wrap;
+    }
+    .banner-image {
+        width: 100%;
+    }
+    .skill-container {
+        flex-wrap: wrap;
+    }
+    .about-bio-data {
+        margin: 10px;
+        padding: 10px;
+    }
+}
